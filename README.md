@@ -1,3 +1,30 @@
+# PocketVRX
+
+PocketVRX is a research fork. This project incorporates the firmware,
+tests, research, hardware material, tools and documentation from
+[C5VRX](https://github.com/Twotoz/C5VRX) by Twotoz and the C5VRX contributors.
+Visit the [official C5VRX website](https://twotoz.github.io/C5VRX/) for the
+original project and its Discord invite.
+
+This derivative is not an official C5VRX release or endorsed by its authors.
+No PocketVRX hardware validation or new receiver results are claimed.
+See [PROVENANCE.md](PROVENANCE.md) for the source revision, modifications,
+license obligations and branding boundaries.
+
+> **Offline IQ diagnostic strips only.** The
+> [snapshot probe](docs/POCKET_PROBE.md) imports saved console captures and
+> decodes nominal DAC codes, not pixels or frames. **Moving live 160x120
+> grayscale at >=10 fps remains unmet.** No firmware modifications or
+> PocketVRX board tests were performed.
+
+See the probe guide for CLI examples, host-check limits and the capture and
+throughput gates required before live video work.
+
+## Inherited C5VRX documentation
+
+The material below describes upstream C5VRX, not a PocketVRX release.
+Upstream images and links are retained as source references only.
+
 <div align="center">
   <img src="assets/C5VRX_logo.gif" alt="C5VRX animated logo" width="760" />
 
@@ -6,7 +33,7 @@
 
   <p>
     <a href="https://twotoz.github.io/C5VRX/"><img src="https://img.shields.io/badge/Web%20Flasher-Online-1f6feb?style=flat" alt="Web Flasher" /></a>
-    <a href="https://discord.gg/3YNgJRHmzD"><img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white" alt="Join the C5VRX Discord" /></a>
+    <a href="https://twotoz.github.io/C5VRX/"><img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white" alt="Find the C5VRX Discord invite on the official website" /></a>
     <a href="https://www.youtube.com/watch?v=Gp3xmLrn_34"><img src="https://img.shields.io/badge/YouTube-Range%20Test-FF0000?logo=youtube&amp;logoColor=white" alt="YouTube Range Test" /></a>
     <img src="https://img.shields.io/badge/firmware-C5VRX--5-success" alt="C5VRX-5" />
     <img src="https://img.shields.io/badge/chip-ESP32--C5-111111" alt="ESP32-C5" />
@@ -239,7 +266,7 @@ host tests alone do not establish picture compatibility or RF range.
 ## Community
 
 Share build photos, questions and feedback on the
-[C5VRX Discord](https://discord.gg/3YNgJRHmzD).
+[C5VRX official website](https://twotoz.github.io/C5VRX/), which hosts its Discord invite.
 
 ## Credits and license
 
@@ -272,4 +299,3 @@ The C5VRX name and logos have separate terms; see [assets/BRANDING.md](assets/BR
 
 Affiliate links. As an Amazon Associate, I earn from qualifying purchases.
 All affiliate earnings go back into C5VRX development.
-
